@@ -60,4 +60,9 @@ public class TallyCounter
 			//count -=1
 			//only count++ or count-- work
 	}
+	public String toString()
+	{
+		return "count: " + count;
+		//have access to count b/c still in class, even though its private
+	}
 }
